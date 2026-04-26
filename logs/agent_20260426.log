@@ -1,3 +1,7 @@
 2026-04-26 11:30:57,651 - agent - ERROR - file_handler.py:33 - [listdir_with_allowed_type]not_exists不是文件夹
 2026-04-26 14:06:27,969 - agent - ERROR - prompt_loader.py:28 - [load_rag_prompts]解析rag提示词出错。[Errno 2] No such file or directory: '/home/zoko/AiCustomer/prompts/rag_summarize.txt'
 2026-04-26 14:06:27,970 - agent - ERROR - prompt_loader.py:42 - [load_report_prompts]解析报告生成提示词出错。[Errno 2] No such file or directory: '/home/zoko/AiCustomer/prompts/report_prompt.txt'
+2026-04-26 16:19:01,049 - agent - INFO - vector_store.py:89 - [加载数据库]/home/zoko/AiCustomer/data/维护保养.txt内容加载成功
+2026-04-26 16:19:03,737 - agent - INFO - vector_store.py:89 - [加载数据库]/home/zoko/AiCustomer/data/扫拖议题机器人100问.txt内容加载成功
+2026-04-26 16:19:06,784 - agent - INFO - vector_store.py:89 - [加载数据库]/home/zoko/AiCustomer/data/选购指南.txt内容加载成功
+2026-04-26 16:19:12,317 - agent - INFO - vector_store.py:89 - [加载数据库]/home/zoko/AiCustomer/data/故障排查.txt内容加载成功

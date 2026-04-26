@@ -1,2 +1,2 @@
-chat_model_name: deepseek-chat
+chat_model_name: deepseek-v4-flash
 embedding_modal_name: text-embedding-v4
