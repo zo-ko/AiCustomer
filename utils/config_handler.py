@@ -3,23 +3,23 @@ yaml
 K:V
 """
 import yaml
-from path_tool import get_abs_path
+from utils.path_tool import get_abs_path
 
 def load_rag_config(config_path: str = get_abs_path("config/rag.yml"),encodeing: str="utf-8"):
     with open(config_path,"r",encoding=encodeing) as f:
-        return yaml.safe_load(f,Loader=yaml.FullLoader)
+        return yaml.load(f,Loader=yaml.FullLoader)
     
 def load_chroma_config(config_path: str = get_abs_path("config/chroma.yml"),encodeing: str="utf-8"):
     with open(config_path,"r",encoding=encodeing) as f:
-        return yaml.safe_load(f,Loader=yaml.FullLoader)
+        return yaml.load(f,Loader=yaml.FullLoader)
 
 def load_prompts_config(config_path: str = get_abs_path("config/prompts.yml"),encodeing: str="utf-8"):
     with open(config_path,"r",encoding=encodeing) as f:
-        return yaml.safe_load(f,Loader=yaml.FullLoader)
+        return yaml.load(f,Loader=yaml.FullLoader)
     
 def load_agent_config(config_path: str = get_abs_path("config/agent.yml"),encodeing: str="utf-8"):
     with open(config_path,"r",encoding=encodeing) as f:
-        return yaml.safe_load(f,Loader=yaml.FullLoader)
+        return yaml.load(f,Loader=yaml.FullLoader)
     
 rag_config = load_rag_config()
 chroma_config = load_chroma_config()
