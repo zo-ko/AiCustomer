@@ -8,7 +8,7 @@ from utils.file_handler import pdf_loader,txt_loader,listdir_with_allowed_type,g
 from utils.logger_handler import logger
 from langchain_core.documents import Document
 
-class VectorStoreService:
+class VectorStoreService:      #创建向量数据库，查找相关内容，知识库添加
     def __init__(self):
         self.vector_store = Chroma(
             collection_name=chroma_config["collection_name"],
